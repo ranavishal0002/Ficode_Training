@@ -7,9 +7,8 @@ class Person{
    public int getID(){
        return ID;
    }
-   public int setID(int id){
+   public void setID(int id){
        this.ID = id;
-       return id;
    }
 
    public String getName(){
