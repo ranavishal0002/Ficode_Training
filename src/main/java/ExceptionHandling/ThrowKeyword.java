@@ -1,7 +1,6 @@
 package ExceptionHandling;
 
 
-
 public class ThrowKeyword {
 
     public static void checkage(int age) throws ArithmeticException{
