@@ -7,9 +7,8 @@ class Person{
    public int getID(){
        return ID;
    }
-   public int setID(int id){
+   public void setID(int id){
        this.ID = id;
-       return id;
    }
 
    public String getName(){
@@ -23,7 +22,6 @@ class Person{
    }
 public class Encapsulation {
     public static void main(String[] args) {
-
         Person obj = new Person();
         obj.setID(1514);
         obj.setName("vishal");
